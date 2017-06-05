@@ -81,3 +81,16 @@ header {
   flex-direction: column;
   justify-content: center;
 }
+
+.start-btn {
+  background-color: green;
+  text-align: center;
+  width: 300px;
+  padding: 8px;
+  
+}
+
+.intro a {
+  text-decoration: none;
+  color: white;
+}
