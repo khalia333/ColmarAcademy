@@ -1,0 +1,28 @@
+html {
+  font-size: 16px;
+  font-family: ;
+}
+
+
+
+header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  z-index: 5;
+}
+
+.mobile-nav{
+  display: none;
+}
+
+.nav-logo {
+  flex-grow: 1;
+}
+
+.nav-logo ul {
+  display: inline;
+}
