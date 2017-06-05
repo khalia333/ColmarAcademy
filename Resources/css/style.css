@@ -4,25 +4,41 @@ html {
 }
 
 
-
+/* HEADER AND NAVIGATION */
 header {
   width: 100%;
-  height: 64px;
-  display: flex;
-  align-items: center;
-  background-color: white;
   position: fixed;
   z-index: 5;
 }
 
-.mobile-nav{
+.mobile-nav {
   display: none;
+}
+
+.desktop-nav {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  background-color: grey;
 }
 
 .nav-logo {
   flex-grow: 1;
+  display: flex;
+  align-items: center;
+  background-color: purple;
+  margin-left: 24px;
 }
 
-.nav-logo ul {
+.nav-logo p {
   display: inline;
+}
+
+.desktop-nav li {
+  display: inline;
+  padding-left: 16px;
+}
+
+.desktop-nav ul {
+  margin-right: 24px;
 }
