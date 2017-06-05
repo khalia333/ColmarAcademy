@@ -1,6 +1,21 @@
+
+/* SOME UNIVERSAL STYLING */
 html {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 500;
 }
 
 
@@ -36,6 +51,14 @@ header {
 
 .nav-logo p {
   display: inline;
+}
+
+.logo-text {
+  font-size: 24px;
+}
+
+.logo-text span {
+  font-weight: 600;
 }
 
 .desktop-nav li {
@@ -100,17 +123,4 @@ header {
 .intro a {
   text-decoration: none;
   color: white;
-}
-
-h1 {
-  font-size: 38px;
-  font-weight: 800;
-  margin-bottom: 24px;
-  line-height: 1.2;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 1.4;
-  font-weight: 500;
 }
