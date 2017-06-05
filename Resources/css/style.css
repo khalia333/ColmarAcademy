@@ -30,6 +30,10 @@ header {
   margin-left: 24px;
 }
 
+.nav-logo img {
+  height: 50px;
+}
+
 .nav-logo p {
   display: inline;
 }
