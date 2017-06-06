@@ -1,5 +1,5 @@
 
-/* SOME UNIVERSAL STYLING */
+/* UNIVERSAL STYLING */
 html {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
@@ -17,7 +17,9 @@ h3 {
   line-height: 1.4;
   font-weight: 500;
 }
-
+ p {
+   line-height: 1.6;
+ }
 
 /* HEADER AND NAVIGATION */
 header {
@@ -182,6 +184,15 @@ header {
 .desktop-pic {
   width: 35%;
   margin: 16px 24px 16px 16px;
+}
+
+.event-info p {
+  margin-top: 8px;
+}
+
+.read-more {
+  text-decoration: none;
+  margin-top: 8px;
 }
 
 
