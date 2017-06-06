@@ -184,7 +184,7 @@ header {
 
 .desktop-pic {
   width: 35%;
-  margin: 16px 24px 16px 0px;
+  margin: 16px 16px 16px 0px;
 }
 
 .event-info p {
@@ -219,7 +219,8 @@ header {
   padding-bottom: 16px;
 }
 
-.courses h1 {
+.courses h1,
+.thesis h1 {
   padding-top: 32px;
   margin-bottom: 32px;
   text-align: center;
@@ -234,7 +235,7 @@ header {
 }
 
 .course-option {
-  background-color: blue;
+  background-color: white;
   width: 30%;
   margin: 0px 16px 16px 16px;
 }
@@ -246,4 +247,48 @@ header {
 }
 .course-description p {
   padding-top: 8px;
+}
+
+/* MEDIA QUERIES FOR COURSES SECTION */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+}
+
+
+/* THESIS SECTION */
+.exhibits {
+  display: flex;
+}
+
+.thesis {
+  padding-bottom: 32px;
+}
+
+.video-div {
+  width: 60%;
+  padding: 0px 16px 24px 24px;
+  background-color: yellow;
+}
+
+.sub-exhibits {
+  width: 40%;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+}
+
+.feature-pic {
+  width: 35%;
+  padding: 16px;
 }
