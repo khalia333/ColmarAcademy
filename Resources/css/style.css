@@ -148,13 +148,54 @@ header {
 /* CAMPUS SECTION */
 .campus {
   display: flex;
-  background-color: green;
 }
 
+.mobile-pic {
+  display: none;
+}
+
+.lrg-image h1,
+.quote-credit {
+  margin-top: 32px;
+}
 
 .events {
   width: 40%;
-  padding-left: 16px;
   display: flex;
   flex-direction: column;
+  border-left: 1px solid blue;
+}
+
+.orientation,
+.our-campus,
+.lecture {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid blue;
+}
+
+.event-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.desktop-pic {
+  width: 35%;
+  margin: 16px 24px 16px 16px;
+}
+
+
+/* MEDIA QUERIES FOR CAMPUS SECTION */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+.desktop-pic {
+  display: none;
+}
+
+
 }
