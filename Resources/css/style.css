@@ -216,7 +216,7 @@ header {
 /* COURSES SECTION */
 .courses {
   background-color: lightgrey;
-  padding-bottom: 32px;
+  padding-bottom: 16px;
 }
 
 .courses h1 {
@@ -228,17 +228,22 @@ header {
 .course-selections {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 80%;
+  justify-content: center;
+  width: 90%;
   margin: 0 auto;
-  background-color: orange;
 }
 
 .course-option {
   background-color: blue;
-  width: 32%;
-  margin-bottom: 16px;
+  width: 30%;
+  margin: 0px 16px 16px 16px;
 }
 .course-img {
   width: 100%;
+}
+.course-description {
+  margin: 16px 16px 24px 16px;
+}
+.course-description p {
+  padding-top: 8px;
 }
