@@ -76,6 +76,12 @@ header {
 }
 
 /* MEDIA QUERIES FOR HEADER */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
 @media only screen and (max-width: 480px) {
   .desktop-nav {
     display: none;
@@ -83,8 +89,6 @@ header {
 
 
 }
-
-
 
 
 /* MAIN SECTION */
@@ -123,4 +127,34 @@ header {
 .intro a {
   text-decoration: none;
   color: white;
+}
+
+
+/* MEDIA QUERIES FOR MAIN SECTION */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+}
+
+
+
+/* CAMPUS SECTION */
+.campus {
+  display: flex;
+  background-color: green;
+}
+
+
+.events {
+  width: 40%;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
 }
