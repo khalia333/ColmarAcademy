@@ -275,7 +275,15 @@ header {
 .video-div {
   width: 60%;
   padding: 0px 16px 24px 24px;
-  background-color: yellow;
+}
+
+.video-div video {
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+.video-div p {
+  padding-top: 24px;
 }
 
 .sub-exhibits {
@@ -285,10 +293,25 @@ header {
 .feature {
   display: flex;
   align-items: center;
-  background-color: blue;
 }
 
-.feature-pic {
+.feature-img {
   width: 35%;
   padding: 16px;
 }
+
+/* MEDIA QUERIES FOR THESIS SECTION */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+}
+
+
+/* FOOTER SECTION */
