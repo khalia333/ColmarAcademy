@@ -300,6 +300,11 @@ header {
   padding: 16px;
 }
 
+.feature-info {
+  padding-right: 16px;
+}
+
+
 /* MEDIA QUERIES FOR THESIS SECTION */
 @media only screen and (max-width: 768px) {
 
@@ -322,6 +327,7 @@ footer {
   border-top: 1px solid blue;
   padding-top: 16px;
   padding-bottom: 16px;
+  color: grey;
 }
 
 footer li {
@@ -333,4 +339,23 @@ footer .copyright,
 ul {
   padding-left: 24px;
   padding-right: 24px;
+}
+
+footer li a {
+  text-decoration: none;
+  color: grey;
+}
+
+
+/* MEDIA QUERIES FOR FOOTER SECTION */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+
 }
