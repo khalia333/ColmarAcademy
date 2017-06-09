@@ -83,6 +83,11 @@ header {
   text-decoration: underline;
 }
 
+.desktop-nav .homelink:hover {
+  text-decoration: none;
+  color: #6f6f6f;
+}
+
 .desktop-nav ul {
   margin-right: 24px;
 }
@@ -220,12 +225,14 @@ header {
   color: #ffffff;
 }
 
-.lecture p {
+.lecture p,
+.lecture h3 {
   color: #ffffff;
 }
 
 .lecture .read-more {
   color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 .desktop-img {
@@ -238,13 +245,20 @@ header {
 }
 
 .read-more {
+  width: 125px;
   text-decoration: none;
-  margin-top: 8px;
+  margin-top: 20px;
   color: #670000;
+  border: 1px solid #670000;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  transition: color .75s, background-color .75s;
 }
 
 .read-more:hover {
-  text-decoration: underline;
+  background-color: #cc9933;
+  color: #ffffff;
 }
 
 
