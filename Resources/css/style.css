@@ -10,6 +10,7 @@ h1 {
   font-weight: 800;
   margin-bottom: 24px;
   line-height: 1.2;
+  color: #232323;
 }
 
 h3 {
@@ -19,6 +20,7 @@ h3 {
 }
  p {
    line-height: 1.6;
+   color: #232323;
  }
 
 /* HEADER AND NAVIGATION */
@@ -37,7 +39,7 @@ header {
   height: 64px;
   display: flex;
   align-items: center;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .nav-logo {
@@ -57,6 +59,7 @@ header {
 
 .logo-text {
   font-size: 24px;
+  color: #670000;
 }
 
 .logo-text span {
@@ -70,7 +73,7 @@ header {
 
 .desktop-nav li a {
   text-decoration: none;
-  color: grey;
+  color: #670000;
 }
 
 .desktop-nav ul {
@@ -96,8 +99,12 @@ header {
 /* MAIN SECTION */
 .main {
   margin-top: 64px;
-  background-color: grey;
+  background-color: #670000;
   display: flex;
+}
+
+.main h1 {
+  color: #ffffff;
 }
 
 .lrg-image {
@@ -115,20 +122,47 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: #ffffff;
 }
 
 .start-btn {
-  background-color: green;
+  background-color: #ffffff;
   text-align: center;
   width: 300px;
   padding: 8px;
   margin-top: 40px;
-
+  border-radius: 5px;
+  box-shadow: 4px 4px 9px #232323;
+  transition: color .75s, background-color .75s;
 }
 
 .intro a {
   text-decoration: none;
-  color: white;
+  color: #670000;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #ffffff;
+}
+
+.intro a:active {
+  text-decoration: none;
+  color: #670000;
+  font-size: 20px;
+  box-shadow: none;
+}
+
+.intro a:visited {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #cc9933;
+}
+
+.intro a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #7b7b7b;
 }
 
 
@@ -152,7 +186,7 @@ header {
   display: flex;
 }
 
-.mobile-pic {
+.mobile-img {
   display: none;
 }
 
@@ -165,7 +199,8 @@ header {
   width: 41.15%;
   display: flex;
   flex-direction: column;
-  border-left: 1px solid blue;
+  justify-content: space-around;
+
 }
 
 .orientation,
@@ -173,7 +208,7 @@ header {
 .lecture {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid blue;
+  border: 1px solid #7b7b7b;
   padding-left: 16px;
 }
 
@@ -182,7 +217,17 @@ header {
   flex-direction: column;
 }
 
-.desktop-pic {
+.lecture {
+  background-color: #7b7b7b;
+  color: #ffffff;
+}
+
+.lecture p {
+  color: #ffffff;
+}
+
+
+.desktop-img {
   width: 35%;
   margin: 16px 16px 16px 0px;
 }
@@ -192,7 +237,7 @@ header {
 }
 
 .read-more {
-  text-decoration: none;
+  text-decoration: underline;
   margin-top: 8px;
 }
 
@@ -205,7 +250,7 @@ header {
 
 
 @media only screen and (max-width: 480px) {
-.desktop-pic {
+.desktop-img {
   display: none;
 }
 
@@ -235,16 +280,20 @@ header {
 }
 
 .course-option {
-  background-color: white;
   width: 30%;
   margin: 0px 16px 16px 16px;
+  background-color: white;
 }
+
 .course-img {
   width: 100%;
+  vertical-align: middle;
 }
+
 .course-description {
   margin: 16px 16px 24px 16px;
 }
+
 .course-description p {
   padding-top: 8px;
 }
