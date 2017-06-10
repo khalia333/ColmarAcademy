@@ -384,7 +384,6 @@ header {
   border: 1px solid #670000;
   border-radius: 5px 0px 0px 5px;
   border-right: 0px;
-  background-color: #670000;
 }
 
 .feature-img {
@@ -395,6 +394,9 @@ header {
 .feature-info {
   padding-right: 16px;
 }
+
+.second.feature {
+  margin-top: 16px;
 
 
 /* MEDIA QUERIES FOR THESIS SECTION */
