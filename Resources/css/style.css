@@ -381,6 +381,9 @@ header {
 .feature {
   display: flex;
   align-items: center;
+  border: 1px solid #670000;
+  border-radius: 5px 0px 0px 5px;
+  border-right: 0px;
 }
 
 .feature-img {
