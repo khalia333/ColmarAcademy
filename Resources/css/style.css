@@ -98,10 +98,18 @@ header {
 
 
 @media only screen and (max-width: 480px) {
-  .desktop-nav {
-    display: none;
-  }
+.desktop-nav {
+  display: none;
+}
 
+.mobile-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mobile-nav li {
+  display: inline;
+}
 
 }
 
@@ -323,7 +331,7 @@ header {
   margin: 0px 16px 16px 16px;
   background-color: #ffffff;
   transition: background-color .75s;
-  box-shadow: 1px 1px 12px;
+  box-shadow: 2px 2px 16px -4px;
 }
 
 .course-option:hover {
