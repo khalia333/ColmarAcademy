@@ -547,6 +547,9 @@ color: #ffffff;
   color: #6f6f6f;
 }
 
+.course-mobile .fa {
+  padding-right: 10px;
+}
 }
 
 
@@ -663,8 +666,27 @@ color: #ffffff;
 
 
 @media only screen and (max-width: 480px) {
+.sub-exhibits,
+.video-txt {
+  display: none;
+}
 
+.exhibits {
+  width: 100%;
+}
 
+.video-div {
+  width: 100%;
+  padding: 0px;
+}
+
+.video-div video {
+  padding-bottom: 0px;
+}
+
+.thesis {
+  padding-bottom: 24px;
+}
 
 }
 
@@ -703,14 +725,11 @@ footer a:hover {
 
 
 /* MEDIA QUERIES FOR FOOTER SECTION */
-@media only screen and (max-width: 768px) {
-
-
-}
 
 
 @media only screen and (max-width: 480px) {
-
-
+footer ul {
+  display: none;
+}
 
 }
