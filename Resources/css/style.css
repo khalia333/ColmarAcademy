@@ -5,12 +5,7 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-  font-size: 38px;
-  font-weight: 800;
-  margin-bottom: 24px;
-  line-height: 1.2;
-}
+
 
 h3 {
   font-size: 24px;
@@ -104,11 +99,16 @@ header {
 
 .mobile-nav {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  background-color: #ffffff;
 }
 
 .mobile-nav li {
   display: inline;
+  padding-left: 36px;
+  padding-right: 36px;
 }
 
 }
@@ -120,8 +120,6 @@ header {
   background-color: #cc9933;
   display: flex;
 }
-
-
 
 .lrg-image {
   width: 60%;
@@ -140,6 +138,13 @@ header {
   justify-content: center;
   color: #ffffff;
   text-shadow: 1px 1px 3px #6f6f6f;
+}
+
+.intro h1 {
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  line-height: 1.2;
 }
 
 .start-btn {
@@ -176,7 +181,13 @@ header {
 
 /* MEDIA QUERIES FOR MAIN SECTION */
 @media only screen and (max-width: 768px) {
+.intro h1 {
+  font-size: 30px;
+}
 
+.intro h3 {
+  font-size: 18px;
+}
 
 }
 
@@ -193,6 +204,13 @@ header {
 .campus {
   display: flex;
   color: #670000;
+}
+
+.lrg-image h1 {
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  line-height: 1.2;
 }
 
 .mobile-img {
@@ -290,7 +308,25 @@ header {
 
 /* MEDIA QUERIES FOR CAMPUS SECTION */
 @media only screen and (max-width: 768px) {
+.lrg-image h1 {
+  font-size: 30px;
+}
 
+.event-info h3 {
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+.event-info p {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.read-more {
+  width: 110px;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
 
 }
 
@@ -316,6 +352,10 @@ header {
   text-align: center;
   color: #ffffff;
   text-shadow: 1px 1px 3px #6f6f6f;
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  line-height: 1.2;
 }
 
 .course-selections {
@@ -396,6 +436,10 @@ header {
   padding-top: 32px;
   margin-bottom: 32px;
   text-align: center;
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  line-height: 1.2;
 }
 
 .video-div {
@@ -479,7 +523,13 @@ header {
 
 /* MEDIA QUERIES FOR THESIS SECTION */
 @media only screen and (max-width: 768px) {
+.feature-info h3 {
+  font-size: 18px;
+}
 
+.feature-info p {
+  font-size: 14px;
+}
 
 }
 
