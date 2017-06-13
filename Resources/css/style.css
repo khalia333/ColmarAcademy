@@ -195,6 +195,8 @@ header {
 .main .lrg-image {
   width: 100%;
   padding: 0px;
+  height: 180px;
+  overflow: hidden;
 }
 
 .intro {
@@ -353,10 +355,63 @@ header {
 
 
 @media only screen and (max-width: 480px) {
+.campus .lrg-image {
+  display: none;
+}
+
+.events {
+  width: 100%;
+  padding-bottom: 32px;
+}
+
 .desktop-img {
   display: none;
 }
 
+.mobile-img {
+  display: block;
+  width: 100%;
+}
+
+.orientation,
+.our-campus,
+.lecture {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 0px;
+  border-radius: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.lecture {
+  background-color: #ffffff;
+}
+
+.lecture p,
+.lecture h3 {
+  color: #670000;
+}
+
+.lecture .read-more {
+  color: #670000;
+  border: 1px solid #670000;
+}
+
+.lecture .read-more:hover {
+background-color: #cc9933;
+color: #ffffff;
+}
+
+.lecture .read-more:active {
+  background-color: #670000;
+  color: #ffffff;
+}
+
+.read-more {
+  font-size: 14px;
+}
 
 }
 
