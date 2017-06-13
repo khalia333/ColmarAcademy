@@ -188,6 +188,7 @@ header {
 
 
 @media only screen and (max-width: 480px) {
+
 .main {
  flex-direction: column;
 }
@@ -200,9 +201,12 @@ header {
 }
 
 .intro {
-  width: 100%;
-  padding-right: 16px;
+  width: 90%;
+  margin-right: 16px;
+  margin-left: 16px;
   padding-bottom: 32px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .intro h1 {
@@ -216,7 +220,7 @@ header {
 }
 
 .start-btn {
-  width: 90%;
+  width: 100%;
   margin-top: 24px;
 }
 }
@@ -381,8 +385,9 @@ header {
   align-items: flex-start;
   border: 0px;
   border-radius: 0px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 0px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .lecture {
@@ -417,6 +422,10 @@ color: #ffffff;
 
 
 /* COURSES SECTION */
+.course-mobile {
+  display: none;
+}
+
 .courses {
   background-color: #cc9933;
   padding-bottom: 16px;
@@ -492,8 +501,51 @@ color: #ffffff;
 
 
 @media only screen and (max-width: 480px) {
+.course-selections {
+  display: none;
+}
+.courses {
+  padding-bottom: 32px;
+}
 
+.courses h1 {
+  margin-bottom: 16px;
+}
 
+.course-mobile {
+  display: flex;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.course-mobile ul {
+  width: 100%;
+}
+
+.course-mobile li {
+  padding: 18px 16px 18px 16px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 8px -4px;
+  transition: color .70s, background-color .75s;
+}
+
+.course-mobile a {
+  text-decoration: none;
+  color: #670000;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.course-mobile li:hover {
+  background-color: #670000;
+  color: #ffffff;
+}
+
+.course-mobile li:active {
+  background-color: #ffffff;
+  color: #6f6f6f;
+}
 
 }
 
